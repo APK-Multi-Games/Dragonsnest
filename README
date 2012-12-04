@@ -7,3 +7,77 @@ User Interface: OpenGL, Win32 (MS Windows), Windows Aero
 Programming Language: Ruby
 
 License: GNU General Public License (GPL)
+
+Basic Controls
+Starting a Game 
+Games created by RPG Maker are started by double-clicking the Game.exe (or Game) file located in the game data folder. If the game data has been compressed, extract it ahead of time by double-clicking.
+
+Controls 
+The controls for games created with RPG Maker are based on the use of a six-button game pad. For descriptive purposes, the button names will be referred to as A, B, C and so on here. The following table shows the correspondence between game pad buttons/keyboard keys and commands in a standard game. To move characters and the cursor, use the directional buttons on the game pad or the arrow keys on the keyboard.
+
+Game pad Name Game pad Keyboard Main function 
+A Button 1 Shift Dash 
+B Button 2 Esc, Num 0, X Cancel, Menu 
+C Button 3 Space, Enter, Z Confirm, OK, Enter 
+X Button 4 A - 
+Y Button 5 S - 
+Z Button 6 D - 
+L Button 7 Q, Page Up Previous page 
+R Button 8 W, Page Down Next page 
+
+Game Properties Game properties 
+Pressing the F1 key while a game is running displays the dialog box shown here. Use this dialog box to customize game pad button and keyboard key assignments. Clicking the Reset button reverts assignments to their default settings.
+
+The following settings are available on the General tab.
+
+Start in Full Screen 
+Automatically switches to full screen mode when the game starts. 
+Suppress Screen Flicker 
+Minimizes the flicker associated with screen drawing. Screen drawing may slow down slightly. 
+Play BGM and ME 
+Specifies whether to play back music while playing a game. 
+Play BGS and SE 
+Specifies whether to play sound effects while playing a game. 
+Other Commands 
+Key Description 
+Alt+Enter Switches between window mode and full-screen mode. 
+Alt+F4 Forcibly exits the game. 
+F12 Forcibly returns to the title screen. 
+F2 Displays the frames per second (FPS) on the title bar. 
+F9 Opens the debugging window (list of switches and variables) when pressed while moving during play testing. 
+Ctrl Enables characters to move through impassible tiles and disables random encounters when the key is held down while moving during play testing. 
+
+In-Game Menu Operations
+Title Menu 
+The title menu appears when a game is started. The following commands are available on the title menu.
+
+New Game 
+Starts the game from the beginning. 
+Continue 
+Resumes a game from the previously saved data. Select the save data from which to continue. 
+Shut Down 
+Exits the game. 
+Menu When Moving 
+This is the menu that appears when the player presses the cancel button while moving on the map. The commands that appear are for using items to recover the actor's stats, saving game progress, and so on. The commands are described below.
+
+Items 
+View/use the party's items. To use an item, select it from the list. For some items, you will also have to select the target of the item's effect. 
+Skills 
+View/use skills (such as magic). To use a skill, select it from the list. For some skills, you will also have to select the target of the skill's effect. 
+Equipment 
+View/change equipment. Select the actor for which you want to view or change equipment. To change equipment, you must also select the slot you want to change and the equipment you want to equip there (or to empty a slot, select a blank item). 
+Status 
+View an actor's status. Select the actor you want to view. 
+Change Formation 
+Change the order in which actors are arranged. Select two actors to swap places. 
+Save 
+Saves current game progress. Select one of up to four save files. 
+Exit Game 
+Exits the game. Select Return to Title Screen, Shut Down (exit the game application), or Cancel (cancels the exit operation). 
+Menu When Fighting 
+When the player encounters an enemy character during the game, the screen switches to the battle screen. The player selects the following commands to proceed through the battle. The game ends if all party members are reduced to zero HP.
+
+Party Commands 
+These are commands that are displayed each turn. Select Fight to continue the battle and Escape to flee from the enemy. But even if the player selects Escape, if the enemy circles around, only the enemy can act until the turn ends. 
+Actor Commands 
+After selecting the party command Fight, select actions for each party member. The main actions are Attack (with the currently equipped weapon), Defend (character protects himself to lessen damage), and Item (use an item on hand). Available actions vary by actor settings. 
